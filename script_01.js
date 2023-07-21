@@ -2,7 +2,7 @@
 /***** Erinnerung: Arrays *******/
 
 // let arr;
-// arr = ["Ich","bin","Max"];
+// arr = ["Ich", "bin", "Max"];
 // output(arr);
 // output(arr[0]);
 // output("------------");
@@ -10,15 +10,15 @@
 
 // // nested arrays - Prinzip: [[[]]]
 // // nested arrays  - hier: [[],[]]
-// arr =   [
-//                 ["Ich","bin","Max"],
-//                 ["Ich","bin","Moritz"]
-//         ];
+// arr = [
+//     ["Ich", "bin", "Max"],
+//     ["Ich", "bin", "Moritz"]
+// ];
 
 
 // output(arr);
 // output(arr[0]);
-// output(arr[0][0]+ " " + arr[1][2]);
+// output(arr[0][0] + " " + arr[1][2]);
 // output(arr[1][0]);
 // output("------------");
 
@@ -26,7 +26,7 @@
 // for (let i = 0; i < arr.length; i++) {
 //     for (let j = 0; j < arr[i].length; j++) {
 //         output("Index i: " + i + " Index j: " + j);
-//         output(arr[i][j]);       
+//         output(arr[i][j]);
 //     }
 // }
 
@@ -38,7 +38,7 @@
 //     familyName: 'Dauti',
 //     salary: [120000, 160000],
 //     permission: true,
-//     sayHello: function(){
+//     sayHello: function () {
 //         return 'Hallo, ' + this.firstName + "!";
 //     }
 // };
@@ -51,9 +51,9 @@
 // output(person.salary[1]);
 // output(person.permission);
 
-// const text =    "Ich bin " + person.firstName + 
-//                 " und verdiene " + person.salary[1] +
-//                 " p.a.";
+// const text = "Ich bin " + person.firstName +
+//     " und verdiene " + person.salary[1] +
+//     " p.a.";
 
 // output(text);
 
